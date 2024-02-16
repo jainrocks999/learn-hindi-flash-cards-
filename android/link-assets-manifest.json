@@ -2,12 +2,20 @@
   "migIndex": 1,
   "data": [
     {
-      "path": "src/screens/assets/fonts/Roboto-Bold.ttf",
-      "sha1": "62442a18a9fe9457c1afeabf683d263a691b7798"
+      "path": "src/screens/assets/fonts/KRDEV016.TTF",
+      "sha1": "5e162a16f21487c24834f817af10530ef222543f"
     },
     {
-      "path": "src/screens/assets/fonts/hindi.ttf",
-      "sha1": "7d293539d88de70c2b73add7b4a81d629dba8a1d"
+      "path": "src/screens/assets/fonts/KrutiDev010Thin.ttf",
+      "sha1": "2474c83536336a9a2e25684605e2faee66860b10"
+    },
+    {
+      "path": "src/screens/assets/fonts/KrutiDev010Thin.woff",
+      "sha1": "8cc88b924ff5742d063fe95b0625971e715540d9"
+    },
+    {
+      "path": "src/screens/assets/fonts/ProtestRiot-Regular.ttf",
+      "sha1": "e8cec983abf34dcdca59df4a90bce74969fa564a"
     }
   ]
 }

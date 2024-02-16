@@ -8,7 +8,7 @@ export const Addsid = {
     },
     ios: {
       BANNER: 'ca-app-pub-3339897183017333/3744755989',
-      Interstitial: 'ca-app-pub-3339897183017333/6545871677',
+      Interstitial: 'ca-app-pub-3339897183017333/3744755989',
     },
   }),
 };

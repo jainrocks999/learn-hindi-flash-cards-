@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* Baby_FlashcardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Baby_FlashcardsTests.m */; };
+		01FD0986FB504C1284F1B89E /* KrutiDev010Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DED36451D45C4775BD2B0F24 /* KrutiDev010Thin.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-Baby_Flashcards.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-Baby_Flashcards.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		181888022B626D8600FD21E1 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 181888012B626D8600FD21E1 /* www */; };
-		18B20A1A2B7E29090038978C /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 18B20A192B7E29080038978C /* fonts */; };
+		1835459A2B7F7F860067EC5D /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 183545992B7F7F860067EC5D /* fonts */; };
 		18EAF6492B62278B004F9670 /* files in Resources */ = {isa = PBXBuildFile; fileRef = 18EAF6482B62278A004F9670 /* files */; };
-		35761521762A4221A9867FE6 /* hindi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB22354CE6D94AD2B6FB4229 /* hindi.ttf */; };
+		5D9725F7A85F487EB0485DD8 /* ProtestRiot-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80FA77AC46D74B569CE21D7E /* ProtestRiot-Regular.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-Baby_Flashcards-Baby_FlashcardsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Baby_Flashcards-Baby_FlashcardsTests.a */; };
+		7F278CCD69C34D388C21D41B /* KrutiDev010Thin.woff in Resources */ = {isa = PBXBuildFile; fileRef = 0BDCED420A6543AABBDDA5AC /* KrutiDev010Thin.woff */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		E39E4713CEE749D19AF36B2C /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C69800B1CAB4C59BB7EB7CD /* Roboto-Bold.ttf */; };
+		CF0160B500E14551B56A6448 /* KRDEV016.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 827F8177DE27483085E51F3C /* KRDEV016.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 		00E356EE1AD99517003FC87E /* Baby_FlashcardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Baby_FlashcardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* Baby_FlashcardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Baby_FlashcardsTests.m; sourceTree = "<group>"; };
+		0BDCED420A6543AABBDDA5AC /* KrutiDev010Thin.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = KrutiDev010Thin.woff; path = ../src/screens/assets/fonts/KrutiDev010Thin.woff; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Baby_Flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baby_Flashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Baby_Flashcards/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Baby_Flashcards/AppDelegate.mm; sourceTree = "<group>"; };
@@ -42,18 +45,19 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Baby_Flashcards/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Baby_Flashcards/main.m; sourceTree = "<group>"; };
 		181888012B626D8600FD21E1 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
-		18B20A192B7E29080038978C /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		183545992B7F7F860067EC5D /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		18EAF6482B62278A004F9670 /* files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = files; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Baby_Flashcards-Baby_FlashcardsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Baby_Flashcards-Baby_FlashcardsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-Baby_Flashcards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baby_Flashcards.debug.xcconfig"; path = "Target Support Files/Pods-Baby_Flashcards/Pods-Baby_Flashcards.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-Baby_Flashcards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baby_Flashcards.release.xcconfig"; path = "Target Support Files/Pods-Baby_Flashcards/Pods-Baby_Flashcards.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-Baby_Flashcards-Baby_FlashcardsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baby_Flashcards-Baby_FlashcardsTests.debug.xcconfig"; path = "Target Support Files/Pods-Baby_Flashcards-Baby_FlashcardsTests/Pods-Baby_Flashcards-Baby_FlashcardsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-Baby_Flashcards.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Baby_Flashcards.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FA77AC46D74B569CE21D7E /* ProtestRiot-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ProtestRiot-Regular.ttf"; path = "../src/screens/assets/fonts/ProtestRiot-Regular.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Baby_Flashcards/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		827F8177DE27483085E51F3C /* KRDEV016.TTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = KRDEV016.TTF; path = ../src/screens/assets/fonts/KRDEV016.TTF; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Baby_Flashcards-Baby_FlashcardsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baby_Flashcards-Baby_FlashcardsTests.release.xcconfig"; path = "Target Support Files/Pods-Baby_Flashcards-Baby_FlashcardsTests/Pods-Baby_Flashcards-Baby_FlashcardsTests.release.xcconfig"; sourceTree = "<group>"; };
-		AB22354CE6D94AD2B6FB4229 /* hindi.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = hindi.ttf; path = ../src/screens/assets/fonts/hindi.ttf; sourceTree = "<group>"; };
+		DED36451D45C4775BD2B0F24 /* KrutiDev010Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = KrutiDev010Thin.ttf; path = ../src/screens/assets/fonts/KrutiDev010Thin.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		1C69800B1CAB4C59BB7EB7CD /* Roboto-Bold.ttf */ = {isa = PBXFileReference; name = "Roboto-Bold.ttf"; path = "../src/screens/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,15 +120,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		79FC952E21F446EC80C8B5C8 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				AB22354CE6D94AD2B6FB4229 /* hindi.ttf */,
-				1C69800B1CAB4C59BB7EB7CD /* Roboto-Bold.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,7 +130,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				18B20A192B7E29080038978C /* fonts */,
+				183545992B7F7F860067EC5D /* fonts */,
 				181888012B626D8600FD21E1 /* www */,
 				18EAF6482B62278A004F9670 /* files */,
 				13B07FAE1A68108700A75B9A /* Baby_Flashcards */,
@@ -144,7 +139,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
-				79FC952E21F446EC80C8B5C8 /* Resources */,
+				B8234F50E23344E5828006DC /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -158,6 +153,17 @@
 				00E356EE1AD99517003FC87E /* Baby_FlashcardsTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B8234F50E23344E5828006DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80FA77AC46D74B569CE21D7E /* ProtestRiot-Regular.ttf */,
+				827F8177DE27483085E51F3C /* KRDEV016.TTF */,
+				DED36451D45C4775BD2B0F24 /* KrutiDev010Thin.ttf */,
+				0BDCED420A6543AABBDDA5AC /* KrutiDev010Thin.woff */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -267,12 +273,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				181888022B626D8600FD21E1 /* www in Resources */,
+				1835459A2B7F7F860067EC5D /* fonts in Resources */,
 				18EAF6492B62278B004F9670 /* files in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
-				18B20A1A2B7E29090038978C /* fonts in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				35761521762A4221A9867FE6 /* hindi.ttf in Resources */,
-				E39E4713CEE749D19AF36B2C /* Roboto-Bold.ttf in Resources */,
+				5D9725F7A85F487EB0485DD8 /* ProtestRiot-Regular.ttf in Resources */,
+				CF0160B500E14551B56A6448 /* KRDEV016.TTF in Resources */,
+				01FD0986FB504C1284F1B89E /* KrutiDev010Thin.ttf in Resources */,
+				7F278CCD69C34D388C21D41B /* KrutiDev010Thin.woff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,7 +547,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MM8CWENXY2;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Baby_Flashcards/Info.plist;
@@ -547,14 +555,14 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.2;
+				MARKETING_VERSION = 4.6;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eflashapps.portugueseaf.--PRODUCT-NAME-rfc1034identifier-";
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.eflashapps.portugueseaf;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.eflashapps.eflashhindi;
 				PRODUCT_NAME = Baby_Flashcards;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -572,21 +580,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MM8CWENXY2;
 				INFOPLIST_FILE = Baby_Flashcards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.2;
+				MARKETING_VERSION = 4.6;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eflashapps.portugueseaf.--PRODUCT-NAME-rfc1034identifier-";
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.eflashapps.portugueseaf;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.eflashapps.eflashhindi;
 				PRODUCT_NAME = Baby_Flashcards;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

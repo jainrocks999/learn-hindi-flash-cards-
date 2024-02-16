@@ -1,8 +1,8 @@
 {
   "name": "eFlashHindi",
   "displayName": "Hindi Baby Flashcards for Kids",
-   "react-native-google-mobile-ads": {
+  "react-native-google-mobile-ads": {
     "android_app_id": "ca-app-pub-3339897183017333~8534882380",
-    "ios_app_id": "ca-app-pub-3339897183017333~2268022784"
+    "ios_app_id": "ca-app-pub-3339897183017333~6545871677"
   }
 }

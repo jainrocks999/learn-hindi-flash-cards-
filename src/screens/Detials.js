@@ -255,11 +255,7 @@ const Detials = props => {
                 justifyContent: 'center',
               }}>
               {Title.portugues != '' ? (
-                <Text
-                  style={[
-                    styles.Titel,
-                    {fontFamily: 'hindi', fontWeight: '500'},
-                  ]}>
+                <Text style={[styles.Titel, {fontFamily: 'KrutiDev010Thin'}]}>
                   {setting.English ? Title.portugues : ''}
                 </Text>
               ) : null}
@@ -394,18 +390,17 @@ const styles = StyleSheet.create({
   },
   Titel: {
     fontSize: wp(5.5),
-    fontWeight: 'bold',
+
     color: 'white',
     alignSelf: 'center',
   },
   imgContainer: {
     height: height,
     marginTop: '5%',
-    // marginLeft: 8,
   },
   btnContainer: {
     position: 'absolute',
-    bottom: '2.5%',
+    bottom: '1%',
     width: '98%',
 
     justifyContent: 'space-between',

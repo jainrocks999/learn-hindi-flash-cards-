@@ -5,6 +5,8 @@ import {
   BackHandler,
   StatusBar,
   LogBox,
+  View,
+  Text,
 } from 'react-native';
 import React, {useEffect, useRef, useState} from 'react';
 import MyStack from './src/components/MyStack';
@@ -17,6 +19,7 @@ import {
 } from 'react-native-google-mobile-ads';
 import {Addsid} from './src/screens/ads';
 import {SafeAreaView} from 'react-native-safe-area-context';
+
 const App = () => {
   const appState = useRef(AppState.currentState);
   const interstitial = InterstitialAd.createForAdRequest(Addsid.Interstitial, {
@@ -91,6 +94,15 @@ const App = () => {
       <StatusBar backgroundColor="#73cbea" />
       <MyStack />
     </Provider>
+    // <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+    //   <Text
+    //     style={{
+    //       fontFamily: 'KrutiDev010Thin',
+    //       fontSize: '',
+    //     }}>
+    //     rajufkfkfkfkfkfkfkfkkf
+    //   </Text>
+    // </View>
   );
 };
 
