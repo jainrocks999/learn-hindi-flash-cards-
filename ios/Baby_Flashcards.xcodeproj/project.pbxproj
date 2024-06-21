@@ -16,6 +16,7 @@
 		181888022B626D8600FD21E1 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 181888012B626D8600FD21E1 /* www */; };
 		1835459A2B7F7F860067EC5D /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 183545992B7F7F860067EC5D /* fonts */; };
 		18EAF6492B62278B004F9670 /* files in Resources */ = {isa = PBXBuildFile; fileRef = 18EAF6482B62278A004F9670 /* files */; };
+		18F3F1342C2463210019725E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3F1332C2463210019725E /* StoreKit.framework */; };
 		5D9725F7A85F487EB0485DD8 /* ProtestRiot-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80FA77AC46D74B569CE21D7E /* ProtestRiot-Regular.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-Baby_Flashcards-Baby_FlashcardsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Baby_Flashcards-Baby_FlashcardsTests.a */; };
 		7F278CCD69C34D388C21D41B /* KrutiDev010Thin.woff in Resources */ = {isa = PBXBuildFile; fileRef = 0BDCED420A6543AABBDDA5AC /* KrutiDev010Thin.woff */; };
@@ -47,6 +48,7 @@
 		181888012B626D8600FD21E1 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		183545992B7F7F860067EC5D /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		18EAF6482B62278A004F9670 /* files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = files; sourceTree = "<group>"; };
+		18F3F1332C2463210019725E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Baby_Flashcards-Baby_FlashcardsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Baby_Flashcards-Baby_FlashcardsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-Baby_Flashcards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baby_Flashcards.debug.xcconfig"; path = "Target Support Files/Pods-Baby_Flashcards/Pods-Baby_Flashcards.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-Baby_Flashcards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baby_Flashcards.release.xcconfig"; path = "Target Support Files/Pods-Baby_Flashcards/Pods-Baby_Flashcards.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C80B921A6F3F58F76C31292 /* libPods-Baby_Flashcards.a in Frameworks */,
+				18F3F1342C2463210019725E /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +116,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18F3F1332C2463210019725E /* StoreKit.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-Baby_Flashcards.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-Baby_Flashcards-Baby_FlashcardsTests.a */,
