@@ -31,12 +31,24 @@ const db = SQLite.openDatabase({
   createFromLocation: 1,
 });
 import {isTablet} from 'react-native-device-info';
-import {BannerAd, BannerAdSize} from 'react-native-google-mobile-ads';
+import {
+  AdEventType,
+  BannerAd,
+  BannerAdSize,
+  InterstitialAd,
+} from 'react-native-google-mobile-ads';
 import {Addsid} from './ads';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {IAPContext} from '../Context';
 import PurcahsdeModal from '../components/requestPurchase';
+const authId = Addsid.Interstitial;
+const requestOption = {
+  requestNonPersonalizedAdsOnly: true,
+  keywords: ['fashion', 'clothing'],
+};
 const SettingScreen = props => {
+  const interstitial = InterstitialAd.createForAdRequest(authId, requestOption);
+
   const {checkPurchases, hasPurchased, requestPurchase, setVisible, visible} = {
     ...useContext(IAPContext),
   };
@@ -59,6 +71,16 @@ const SettingScreen = props => {
     Voice: setting.Voice,
   });
   const [questionMode, setquestion] = useState(quesion);
+  const showAdd = () => {
+    const unsubscribe = interstitial.addAdEventListener(
+      AdEventType.LOADED,
+      () => {
+        interstitial.show();
+      },
+    );
+    interstitial.load();
+    return unsubscribe;
+  };
   const handleSwitch = (name, value) => {
     if (questionMode == 1) {
       alert('This setting is disabled when quesion mode is enabled');
@@ -73,6 +95,7 @@ const SettingScreen = props => {
     if (pr === 'question') {
       if (questionMode == 0) {
         Navigation.dispatch(StackActions.replace('details'));
+        !hasPurchased && showAdd();
         dispatch({
           type: 'backSoundFromquestions/playWhenThePage',
           fromDetails: false,
@@ -90,6 +113,7 @@ const SettingScreen = props => {
     } else if (pr === 'details') {
       if (questionMode == 1) {
         Navigation.dispatch(StackActions.replace('question'));
+        !hasPurchased && showAdd();
         dispatch({
           type: 'backSoundFromquestions/playWhenThePage',
           fromDetails: false,
